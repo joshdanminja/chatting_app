@@ -95,7 +95,7 @@ export default class Chat extends Component {
           <button type="submit" className="btn btn-submit px-4 mt-4">SEND</button>
         </form>
         <div className="py-5 mx-3 text-center">
-          Logged in in as: <strong className="text-info">{this.state.user.email}</strong>
+          Logged in as: <strong className="text-info">{this.state.user.email}</strong>
         </div>
       </div>
     );
